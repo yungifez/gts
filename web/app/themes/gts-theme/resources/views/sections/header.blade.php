@@ -1,6 +1,6 @@
 <header class="banner">
-  <div>
-    <a class="brand" href="{{ home_url('/') }}">
+  <div class="w-screen bg-purple-600 p-3 text-white ">
+    <a class="brand font-bold text-2xl" href="{{ home_url('/') }}">
       {!! $siteName !!}
     </a>
     @if (has_nav_menu('primary_navigation'))

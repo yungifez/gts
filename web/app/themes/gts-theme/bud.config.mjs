@@ -29,7 +29,7 @@ export default async (app) => {
     /**
      * Proxy origin (`WP_HOME`)
      */
-    .proxy("http://localhost:419")
+    .proxy("http://gtis.test")
 
     /**
      * Development origin
