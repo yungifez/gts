@@ -4,7 +4,7 @@
 
 @include('sections.header')
 
-  <main id="main" class="main bg-gray-200">
+  <main id="main" class="main min-h-screen bg-gray-100">
     @yield('content')
   </main>
 

@@ -1,4 +1,4 @@
-<header class="bg-white  w-screen sticky inset-0 lg:flex lg:justify-between lg:items-center z-20" >
+<header class="bg-white sticky inset-0 lg:flex lg:justify-between lg:items-center z-20" >
   <div class=" text-pink-700 p-3 flex justify-between items-center">
     <div class="flex gap-3 items-center">
       <img src="{{asset('images/logo.webp')}}" alt="Logo" class="h-10">
