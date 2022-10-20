@@ -2,4 +2,4 @@ DirectoryIndex index.php
 
 RewriteEngine On 
 RewriteRule ^$ web/index.php [L]
-RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+RewriteRule ^((?!web/).*)$ web/$1 [L,NC]
