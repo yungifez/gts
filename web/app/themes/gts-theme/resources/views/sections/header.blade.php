@@ -6,10 +6,12 @@
         {!! $siteName !!}
       </a> 
   </div>
-  <p class="text-2xl font-bold lg:hidden menu-sign cursor-pointer" onclick="toggleNav()">&#9776</p>
+  @if (has_nav_menu('primary_navigation'))
+    <p class="text-2xl font-bold lg:hidden menu-sign cursor-pointer" onclick="toggleNav()">&#9776</p>
+  @endif
   </div>
   @if (has_nav_menu('primary_navigation'))
-      <nav class="hidden nav-primary h-screen bg-gray-800 backdrop-blur-sm bg-opacity-80 absolute w-full lg:static lg:h-full lg:bg-white lg:w-fit lg:block" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
+      <nav class="hidden nav-primary h-screen bg-gray-800 backdrop-blur-sm bg-opacity-80 absolute w-full lg:static lg:h-full lg:bg-white lg:w-fit lg:block" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}" id="primary-navigation">
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'text-white p-3 text-3xl lg:text-pink-700 lg:flex lg:h-full font-bold lg:text-xl lg:py-0 lg:px-3 lg:items-center', 'echo' => true]) !!}
       </nav>
     @endif
@@ -18,6 +20,7 @@
         padding: 1rem;
       }
      
+
       @media (min-width: 1024px) {
         .nav-primary li{
           padding:0.5rem 1rem 0.5rem 1rem;
@@ -59,7 +62,7 @@
     </style>
     <script> 
       let isToggled = false;
-      let nav = document.querySelector('.nav-primary');
+      let nav = document.querySelector('#primary-navigation');
       let menuSign = document.querySelector('.menu-sign');
       
       let toggleNav = function() {
@@ -81,7 +84,6 @@
       if (window.matchMedia("(min-width: 1024px)").matches) {
         isToggled = false;
         toggleNav();
-      }
-     })
+      }})
     </script>
 </header>

@@ -1,3 +1,23 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+    .animate-hide{
+        opacity:0;
+        filter:blur(5px);
+        transform: translateX(-100%);
+    }
+    .animate-show{
+        opacity: 1;
+        filter:blur(0);
+        transition: all 1s;
+        transform: translateX(0);
+      }
+    
+      @media(prefers-reduced-motion){
+        .animate-show{
+            transition: none;
+        }
+      }
+  }

@@ -19,3 +19,23 @@ const main = async (err) => {
  */
 domReady(main);
 import.meta.webpackHot?.accept(main);
+
+const observer = new IntersectionObserver((enteries)=> {
+  enteries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate-show');
+      entry.target.classList.remove('animate-hide');
+    }else{
+      entry.target.classList.remove('animate-show');
+      entry.target.classList.add('animate-hide');
+    }
+  });
+});
+
+const scrollElements = document.querySelectorAll('.animate-on-scroll');
+scrollElements.forEach((el) => {  
+  observer.observe(el)
+}
+);
+
+
