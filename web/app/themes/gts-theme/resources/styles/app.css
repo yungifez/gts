@@ -3,6 +3,10 @@
 @import 'tailwindcss/utilities';
 
 @layer base {
+    h2 {
+        --tw-text-opacity: 1;
+        color: rgb(77 124 15 / var(--tw-text-opacity));
+    }
     .animate-hide{
         opacity:0;
         filter:blur(5px);
