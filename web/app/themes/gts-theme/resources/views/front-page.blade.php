@@ -13,14 +13,14 @@
         <h2 data-aos="fade-up" class="text-4xl font-bold lg:text-5xl">What we stand for</h2>
         <div class="flex flex-col lg:flex-row my-10  ">
             <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 rounded-lg animate-on-scroll lg:delay-150" >
-                <h2 class="p-2 text-xl font-bold text-center lg:text-left">Our Vision</h2>
+                <h2 class="p-2 text-pink text-pink-700 text-xl font-bold text-center lg:text-left">Our Vision</h2>
                 <p class="leading-8  mt-5 text-justify">Our vision is to train up academic and moral stars who would be an epitome of light to their family, community and nation, children who would serve as an example to others and who would always be recognized as being honest, academic loving, creative, resourceful, polite and discipline. To produce proud patriots who would be the leaders of tomorrow without forgeting about the strugles of the people of today</p>
                 <form action="https://gentletouchschool.com/vision-statement">
                     <button type="" class="  w-32 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 m-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
                 </form>
             </article>
-            <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 lg:delay-200 animate-on-scroll rounded-lg" >
-                <h2 class="p-2 text-xl font-bold text-center lg:text-left">Our Mission</h2>
+            <article class="my-4 border-2  border-pink-700 border-solid p-6 lg:m-4 lg:delay-200 animate-on-scroll rounded-lg" >
+                <h2 class="p-2 text-xl text-pink-700 font-bold text-center lg:text-left">Our Mission</h2>
                 <p class="leading-8  mt-5 text-justify">To acheive our visions, we look for clever and creative ways to teach our students both academic and moral lessons, we try our best to teach them in a way that is fun but still manages to get the point we are trying to introduce fully. We also take time to review our information dissemination techniques in hopes of improving it one step at a time. We try our best to ensure condusive learning environment to preent unnecessary distractions </p>
                 <form action="https://gentletouchschool.com/mission-statement">
                     <button type="" class="  w-32 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 m-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
@@ -28,7 +28,7 @@
             </article>
             
             <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 lg:delay-300 animate-on-scroll rounded-lg">
-                <h2 class="p-2 text-xl font-bold text-center lg:text-left">Our Core values</h2>
+                <h2 class="p-2 text-xl text-pink-700 font-bold text-center lg:text-left">Our Core values</h2>
                 <p class="leading-8 mt-5 text-justify">We deeply believe in the principles of love of our creator and ourselves, the principles of determination and hardwork in everything we do, that is in dissemination of moral and academic values to our pupils. We also believe in the principles of discipline, self control and anger management in everything we do. We also believe in the principles of equality of individuals and we believe in the principle of individual uniqueness</p>
                 <form action="https://gentletouchschool.com/core%20values">
                     <button type="" class="  w-32 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 m-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
@@ -36,8 +36,8 @@
             </article>
         </div>
     </section>
-    <section class="bg-black grid grid-col-1 text-white lg:gap-3 lg:grid-col-4 lg:p-3 ">
-        <h2 class="col-span-1 text-center text-4xl font-bold px-3 py-8 lg:col-span-4 animate-on-scroll ">What we offer</h2>
+    <section class="bg-black grid grid-col-1 text-2xl text-white lg:gap-3 lg:grid-col-4 lg:p-3 ">
+        <h2 class="col-span-1 text-center text-white text-4xl font-bold px-3 py-8 lg:col-span-4 animate-on-scroll ">What we offer</h2>
         <div class="bg-red-600 grid h-96 place-content-center lg:rounded-lg lg:delay-150 animate-on-scroll"><p>Creche</p></div>
         <div class="bg-blue-600 grid h-96 place-content-center lg:rounded-lg lg:delay-200 animate-on-scroll"><p>Pre school</p></div>
         <div class="bg-yellow-600 grid h-96 place-content-center lg:rounded-lg lg:delay-300 animate-on-scroll"><p>Primary</p></div>
