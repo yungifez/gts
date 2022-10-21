@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b7166ce3d76cddf0749b259cb9099b1",
+    "content-hash": "151385e3eb83efd47996918726d86ee5",
     "packages": [
         {
             "name": "brick/math",
@@ -4799,6 +4799,24 @@
                 }
             ],
             "time": "2022-01-24T18:55:24+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/nextgen-gallery",
+            "version": "3.30",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/nextgen-gallery/",
+                "reference": "tags/3.30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/nextgen-gallery.3.30.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/nextgen-gallery/"
         },
         {
             "name": "wpackagist-theme/twentytwentytwo",

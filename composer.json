@@ -41,6 +41,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-theme/twentytwentytwo": "^1.2",
+    "wpackagist-plugin/nextgen-gallery": "^3.30",
     "roots/acorn": "^2.1"
   },
   "require-dev": {
