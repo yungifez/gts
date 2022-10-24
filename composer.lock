@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52ba9f9ddf65ab7756303d4df02864f4",
+    "content-hash": "be3ff89c188015a8bf8e01b0da1db70b",
     "packages": [
         {
             "name": "brick/math",
@@ -4819,24 +4819,6 @@
             "homepage": "https://wordpress.org/plugins/nextgen-gallery/"
         },
         {
-            "name": "wpackagist-plugin/wp-form",
-            "version": "0.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-form/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-form.zip?timestamp=1340170936"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-form/"
-        },
-        {
             "name": "wpackagist-plugin/wp-mail-smtp",
             "version": "3.6.1",
             "source": {
@@ -4853,6 +4835,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
+        },
+        {
+            "name": "wpackagist-plugin/wpforms-lite",
+            "version": "1.7.7.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
+                "reference": "tags/1.7.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.7.7.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpforms-lite/"
         },
         {
             "name": "wpackagist-theme/twentytwentytwo",
