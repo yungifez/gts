@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <section class="h-screen text-white bg-black bg-opacity-60 bg-blend-overlay grid place-content-center text-center bg-cover bg-center" style="background-image: url('{{asset('images/homepage-banner.webp')}}')">
+    <section class="h-screen text-white bg-black bg-fixed bg-opacity-60 bg-blend-overlay grid place-content-center text-center bg-cover bg-center" style="background-image: url('{{asset('images/homepage-banner.webp')}}')">
         <h1 class="text-4xl font-bold animate-bounce lg:text-6xl">Gentle Touch School</h1>
         <p class="text-xl lg:text-2xl">Wisdom and knowledge</p>
     </section>
