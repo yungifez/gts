@@ -6,6 +6,13 @@
     h2 {
         --tw-text-opacity: 1;
         color: rgb(77 124 15 / var(--tw-text-opacity));
+        font-size: 2.5rem;
+        font-weight:bold;
+        text-align: center;
+        margin: 1.5rem;
+    }
+    .paragraph{
+        padding: 1.5rem;
     }
     .animate-hide{
         opacity:0;
