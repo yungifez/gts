@@ -30,7 +30,7 @@
             <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 lg:delay-300 animate-on-scroll rounded-lg">
                 <h2 class="p-2 text-xl text-pink-700 font-bold text-center lg:text-left">Our Core values</h2>
                 <p class="leading-8 mt-5 text-justify">We deeply believe in the principles of love of our creator and ourselves, the principles of determination and hardwork in everything we do, that is in dissemination of moral and academic values to our pupils. We also believe in the principles of discipline, self control and anger management in everything we do. We also believe in the principles of equality of individuals and we believe in the principle of individual uniqueness</p>
-                <form action="https://gentletouchschool.com/core%20values">
+                <form action="https://gentletouchschool.com/core-value-statement">
                     <button type="" class="  w-32 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 m-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
                 </form>
             </article>
