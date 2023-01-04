@@ -44,7 +44,8 @@
     "wpackagist-plugin/nextgen-gallery": "^3.30",
     "roots/acorn": "^2.1",
     "wpackagist-plugin/wp-mail-smtp": "^3.6",
-    "wpackagist-plugin/wpforms-lite": "1.7.7.2"
+    "wpackagist-plugin/wpforms-lite": "1.7.7.2",
+    "wpackagist-plugin/wp-seopress": "6.2.0.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

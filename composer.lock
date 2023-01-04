@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be3ff89c188015a8bf8e01b0da1db70b",
+    "content-hash": "3513eb0a6aba2181d1e137dc2286d374",
     "packages": [
         {
             "name": "brick/math",
@@ -4847,6 +4847,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-seopress",
+            "version": "6.2.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-seopress/",
+                "reference": "tags/6.2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-seopress.6.2.0.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-seopress/"
         },
         {
             "name": "wpackagist-plugin/wpforms-lite",
