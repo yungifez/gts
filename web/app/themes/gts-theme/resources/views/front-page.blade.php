@@ -9,7 +9,7 @@
         <div class="border-4 border-lime-500 w-3/5 lg:w-2/12 my-2"></div>
         <p class="text-gray-600 text-center text-xl my-2 animate-on-scroll">Welcome to the official website of Gentle Touch International Schools, the school of wisdom and knowledge. A school created with the sole purpose of training leaders of tomorrow in moral and academic prospects. </p>
     </section>
-    <section class="text-pink-700 flex flex-col items-center justify-center p-6 bg:white animate-on-scroll">
+    <section class="text-pink-700 flex flex-col items-center justify-center p-6 bg-white animate-on-scroll">
         <h2 data-aos="fade-up" class="text-4xl font-bold lg:text-5xl">What we stand for</h2>
         <div class="flex flex-col lg:flex-row my-10  ">
             <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 rounded-lg animate-on-scroll lg:delay-150" >
@@ -47,7 +47,7 @@
         <h2 class="text-4xl text-center text-lime-700 font-bold g:delay-150 animate-on-scroll">We are admitting...</h2>
         <a href="https://gentletouchschool.com/admission" class="text-center text-pink-700 g:delay-150 animate-on-scroll">Follow these steps to apply for admission</a>
     </section>
-    <section class=" p-6 bg:white">
+    <section class=" p-6 bg-white">
         @while(have_posts()) @php(the_post())
           @includeFirst(['partials.content-page', 'partials.content'])
         @endwhile
