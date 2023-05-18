@@ -47,7 +47,9 @@
         <h2 class="text-4xl text-center text-lime-700 font-bold g:delay-150 animate-on-scroll">We are admitting...</h2>
         <a href="https://gentletouchschool.com/admission" class="text-center text-pink-700 g:delay-150 animate-on-scroll">Follow these steps to apply for admission</a>
     </section>
-  @while(have_posts()) @php(the_post())
-    @includeFirst(['partials.content-page', 'partials.content'])
-  @endwhile
+    <section class=" p-6 bg:white">
+        @while(have_posts()) @php(the_post())
+          @includeFirst(['partials.content-page', 'partials.content'])
+        @endwhile
+    </section>
 @endsection
