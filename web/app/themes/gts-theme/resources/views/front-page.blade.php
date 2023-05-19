@@ -3,7 +3,7 @@
     <style>
         .homepage-image{
             background-image: url('{{asset('images/homepage-banner-mobile.jpg')}}');
-            background-size: 177vw 100vh;
+            background-size: 177vw 120vh;
             @media (min-width: 1024px) {
                 background-image: url('{{asset('images/homepage-banner.webp')}}');
             }
