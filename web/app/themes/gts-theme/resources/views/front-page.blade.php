@@ -2,45 +2,44 @@
 @section('content')
     <style>
         .homepage-image{
-            background-image: url('{{asset('images/homepage-banner-mobile.jpg')}}');
-            background-size: 177vw 110vh;
+            background-image: url('{{asset('images/homepage-banner-mobile.JPG')}}');
             @media (min-width: 1024px) {
-                background-image: url('{{asset('images/homepage-banner.webp')}}');
+                background-image: url('{{asset('images/homepage-banner.JPG')}}');
             }
         }
     </style>
-    <section class="h-screen text-white bg-black bg-fixed bg-opacity-60 bg-blend-overlay grid place-content-center text-center  lg:bg-center homepage-image">
+    <section class="h-screen text-white bg-cover bg-black bg-opacity-60 bg-blend-overlay grid place-content-center text-center  lg:bg-center homepage-image">
         <h1 class="text-4xl font-bold animate-bounce lg:text-6xl">Gentle Touch School</h1>
         <p class="text-xl lg:text-2xl">Wisdom and knowledge</p>
     </section>
-    <section class=" grid place-content-center px-6 py-20 justify-items-center bg-gray-300 ">
+    <section class=" grid place-content-center px-3 py-20 justify-items-center bg-gray-300 ">
         <h2 class="text-4xl text-center font-bold lg:text-5xl animate-on-scroll">Welcome to <span class="text-lime-700 block animate-pulse ">Gentle Touch Schools</span> </h2>
         <div class="border-4 border-lime-500 w-3/5 lg:w-2/12 my-2"></div>
-        <p class="text-gray-600 text-center text-xl my-2 animate-on-scroll">Welcome to the official website of Gentle Touch International Schools, the school of wisdom and knowledge. A school created with the sole purpose of training leaders of tomorrow in moral and academic prospects. </p>
+        <p class="text-gray-600 text-center text-xl my-2 animate-on-scroll mx-2">Welcome to the official website of Gentle Touch International Schools, the school of wisdom and knowledge. A school created with the sole purpose of training leaders of tomorrow in moral and academic prospects. </p>
     </section>
-    <section class="text-pink-700 flex flex-col items-center justify-center p-6 bg-white animate-on-scroll">
+    <section class="text-pink-700 flex flex-col items-center justify-center p-3 bg-white animate-on-scroll">
         <h2 data-aos="fade-up" class="text-4xl font-bold lg:text-5xl">What we stand for</h2>
-        <div class="flex flex-col lg:flex-row my-10  ">
-            <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 rounded-lg animate-on-scroll lg:delay-150" >
-                <h2 class="p-2 text-xl text-pink text-pink-700 text-xl font-bold text-center lg:text-left">Our Vision</h2>
+        <div class=" grid md:grid-cols-2 lg:grid-cols-3 my-10 mt-4 place-content-center gap-3 justify-center ">
+            <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 rounded-lg animate-on-scroll lg:delay-150 h-full" >
+                <h2 class="p-2 text-pink text-pink-700 text-xl font-bold text-center lg:text-left">Our Vision</h2>
                 <p class="leading-8 lg:text-lg  mt-5 text-justify">Our vision is to train up academic and moral stars who would be an epitome of light to their family, community and nation, children who would serve as an example to others and who would always be recognized as being honest, academic loving, creative, resourceful, polite and discipline. To produce proud patriots who would be the leaders of tomorrow without forgeting about the strugles of the people of today</p>
                 <form action="https://gentletouchschool.com/vision-statement">
-                    <button type="" class="  w-32 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 m-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
+                    <button type="" class="  w-40 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 my-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
                 </form>
             </article>
-            <article class="my-4 border-2  border-pink-700 border-solid p-6 lg:m-4 lg:delay-200 animate-on-scroll rounded-lg" >
+            <article class="my-4 border-2  border-pink-700 border-solid p-6 lg:m-4 lg:delay-200 animate-on-scroll rounded-lg h-full" >
                 <h2 class="p-2 text-xl text-pink-700 font-bold text-center lg:text-left">Our Mission</h2>
                 <p class="leading-8 lg:text-lg mt-5 text-justify">To acheive our visions, we look for clever and creative ways to teach our students both academic and moral lessons, we try our best to teach them in a way that is fun but still manages to get the point we are trying to introduce fully. We also take time to review our information dissemination techniques in hopes of improving it one step at a time. We try our best to ensure condusive learning environment to preent unnecessary distractions </p>
                 <form action="https://gentletouchschool.com/mission-statement">
-                    <button type="" class="  w-32 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 m-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
+                    <button type="" class="  w-40 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 my-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
                 </form>
             </article>
             
-            <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 lg:delay-300 animate-on-scroll rounded-lg">
+            <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 lg:delay-300 animate-on-scroll rounded-lg h-full">
                 <h2 class="p-2 text-xl  text-pink-700 font-bold text-center lg:text-left">Our Core values</h2>
                 <p class="leading-8 lg:text-lg mt-5 text-justify">We deeply believe in the principles of love of our creator and ourselves, the principles of determination and hardwork in everything we do, that is in dissemination of moral and academic values to our pupils. We also believe in the principles of discipline, self control and anger management in everything we do. We also believe in the principles of equality of individuals and we believe in the principle of individual uniqueness</p>
                 <form action="https://gentletouchschool.com/core-value-statement">
-                    <button type="" class="  w-32 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 m-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
+                    <button type="" class="  w-40 font-bold text-lg h-10 bg-transparent  border-2 border-pink-700 border-solid text-pink-700 my-6 rounded-lg outline-none hover:text-lime-500 hover:border-lime-500">Read more</button>
                 </form>
             </article>
         </div>
