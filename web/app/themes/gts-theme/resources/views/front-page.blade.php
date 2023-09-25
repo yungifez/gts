@@ -17,7 +17,7 @@
         <div class="border-4 border-lime-500 w-3/5 lg:w-2/12 my-2"></div>
         <p class="text-gray-600 text-center text-xl my-2 animate-on-scroll mx-2">Welcome to the official website of Gentle Touch International Schools, the school of wisdom and knowledge. A school created with the sole purpose of training leaders of tomorrow in moral and academic prospects. </p>
     </section>
-    <section class="text-pink-700 flex flex-col items-center justify-center p-3 bg-white animate-on-scroll">
+    <section class="text-pink-700 flex flex-col items-center justify-center p-3 bg-white">
         <h2 data-aos="fade-up" class="text-4xl font-bold lg:text-5xl">What we stand for</h2>
         <div class=" grid md:grid-cols-2 lg:grid-cols-3 my-10 mt-4 place-content-center gap-3 justify-center ">
             <article class="my-4 border-2 border-pink-700 border-solid p-6 lg:m-4 rounded-lg animate-on-scroll lg:delay-150 h-full" >
